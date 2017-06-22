@@ -1,0 +1,6 @@
+*.key
+*.csr
+*.crt
+*.srl
+config.yml
+

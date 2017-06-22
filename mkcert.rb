@@ -23,7 +23,7 @@ def checkfile(filename)
   end
 end
 
-if ARGV.size <= 2
+if ARGV.size <= 1
   usage
   exit 1
 end

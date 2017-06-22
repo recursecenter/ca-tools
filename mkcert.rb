@@ -32,7 +32,6 @@ keysize = ARGV.shift
 filename = ARGV.first
 
 checkfile "#{filename}.key"
-checkfile "#{filename}.csr"
 checkfile "#{filename}.crt"
 
 subject_hash = YAML.load(File.read("config.yml"))

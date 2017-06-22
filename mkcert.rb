@@ -83,4 +83,4 @@ openssl x509 \\
   -out #{filename}.crt
 SH
 
-system "rm #{filename.csr}"
+system "rm #{filename}.csr"

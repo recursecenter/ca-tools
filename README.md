@@ -70,7 +70,7 @@ switch1.corp.exmaple.com.crt. The second argument to mkcert.rb is the key size.
 You can also specify multiple hosts in one certificate:
 
 ```
-$ ruby mkcert.rb 4096 switch1.net.recurse.com switch2.net.recurse.com
+$ ruby mkcert.rb 4096 switch1.corp.example.com switch2.corp.example.com
 ```
 
 The first host will be used as the common name for the certificate. It will

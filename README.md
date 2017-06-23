@@ -25,7 +25,8 @@ store and TLS implementation will properly validate name constraints on macOS.
 
 ## Requirements
 
-CA Tools requires Ruby compiled with libyaml.
+CA Tools requires Ruby compiled with libyaml, as well as Bash, and the
+OpenSSL command line tool.
 
 ## Setup
 

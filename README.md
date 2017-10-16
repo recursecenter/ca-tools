@@ -66,7 +66,7 @@ $ ruby mkcert.rb 4096 switch1.corp.example.com
 ```
 
 This will generate switch1.corp.example.com.key and
-switch1.corp.exmaple.com.crt. The second argument to mkcert.rb is the key size.
+switch1.corp.example.com.crt. The second argument to mkcert.rb is the key size.
 You can also specify multiple hosts in one certificate:
 
 ```

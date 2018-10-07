@@ -53,7 +53,7 @@ mkca.rb is the name constraint. The leading dot means that ca.crt will be able
 to sign any number of subdomains of corp.example.com, though not
 corp.example.com itself. You can find more info in [RFC 5280](https://tools.ietf.org/html/rfc5280#section-4.2.1.10).
 
-Ca.key contains a 4096 bit RSA key pair. Ca.crt is valid for five years. You
+Ca.key contains a 2048 bit RSA key pair. Ca.crt is valid for five years. You
 must tell your operating system or browser to trust ca.crt in order to trust
 any certificates you generate.
 
@@ -62,7 +62,7 @@ any certificates you generate.
 Once you have created your CA, you can create a certificate as follows:
 
 ```
-$ ruby mkcert.rb 4096 switch1.corp.example.com
+$ ruby mkcert.rb 2048 switch1.corp.example.com
 ```
 
 This will generate switch1.corp.example.com.key and
@@ -70,7 +70,7 @@ switch1.corp.example.com.crt. The second argument to mkcert.rb is the key size.
 You can also specify multiple hosts in one certificate:
 
 ```
-$ ruby mkcert.rb 4096 switch1.corp.example.com switch2.corp.example.com
+$ ruby mkcert.rb 2048 switch1.corp.example.com switch2.corp.example.com
 ```
 
 The first host will be used as the common name for the certificate. It will
@@ -78,7 +78,7 @@ also be used for the filenames of the key and the certificate.
 
 ## Copyright
 
-Copyright Recurse Center 2017
+Copyright Recurse Center 2018
 
 ## License
 

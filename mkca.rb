@@ -7,7 +7,7 @@ require 'yaml'
 
 KEYNAME =  "ca.key"
 CERTNAME = "ca.crt"
-KEYSIZE =  4096
+KEYSIZE =  2048
 
 def err(*args)
   STDERR.puts(*args)
